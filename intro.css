@@ -1,8 +1,35 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
+	padding-left: 5px;
 }
 
-h1,h2{
+h1{
 	font-family: 'Oswald', sans-serif;
+}
+h2{
+	font-family: 'Oswald', sans-serif;
+	padding-top: 7px;
+}
+
+footer{
+	display: flex;
+	font-size: smaller;
+	justify-content: center;
+	padding: 15px;
+}
+a{
+	color: #0d8ba1;
+	text-decoration: none;
+}
+a:visited {
+	color: #1a5952;
+	text-decoration: none;
+}
+a:hover, a:focus {
+	color: #0599c2;
+	text-decoration: underline;
+}
+hr{
+	border-color: #1a5952;
 }
